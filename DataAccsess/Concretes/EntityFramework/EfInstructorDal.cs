@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concretes.EntityFramework
 {
-    public class EfInstructorDal : EfEntityRepositoryBase<Category, TobetoCourseContext>, ICategoryDal
+    public class EfInstructorDal : EfEntityRepositoryBase<Instructor, TobetoCourseContext>, IInstructorDal
     {
     }
 }

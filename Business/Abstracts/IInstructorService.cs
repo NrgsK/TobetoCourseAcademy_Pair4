@@ -9,10 +9,20 @@ using Entities.DTOs;
 
 namespace Business.Abstracts
 {
-    public interface IInstructorService : IGenericService<Instructor>
+    public interface IInstructorService 
     {
+        IDataResult<List<Instructor>> GetAll();
 
-        
+        IDataResult<Instructor> GetById(int Id);
+
+        IResult Add(Instructor instructor);
+
+        IResult Update(Instructor instructor);
+
+        IResult Delete(Instructor instructor);
+       
+
+
 
     }
 }

@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccess.Migrations
 {
     [DbContext(typeof(TobetoCourseContext))]
-    [Migration("20231122090805_navProps_ChangedNullable")]
-    partial class navProps_ChangedNullable
+    [Migration("20231122102800_initDatabase")]
+    partial class initDatabase
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
