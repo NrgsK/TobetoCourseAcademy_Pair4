@@ -10,6 +10,7 @@ namespace Business.ValidationRules.FluentValidation
 {
     public class CourseValidator:AbstractValidator<Course>
     {
+        //**
         public CourseValidator()
         {
             RuleFor(c=>c.CourseName).NotEmpty().WithMessage("Kurs adı boş geçilemez!");
